@@ -182,6 +182,6 @@ pytest tests/ -v
 
 ## 👤 Author
 
-**Pranav Deshmukh** —  Aspring ML Engineer  
-📧 Connect on [LinkedIn](#)  
+**Pranav Deshmukh** —  Data Science & Machine Learning  
+📧 Connect on [LinkedIn](linkedin.com/in/pranav-deshmukh2004)  
 ⭐ Star this repo if you found it helpful!
