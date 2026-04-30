@@ -46,28 +46,29 @@ An e-commerce company loses ~2% revenue daily to fraudulent transactions. This s
 
 ## 📁 Project Structure
 
+```
 fraud-detection-pipeline/
 ├── src/
 │   ├── ingestion/
-│   │   ├── transaction_producer.py   # Kafka producer simulating transactions
-│   │   └── s3_handler.py             # AWS S3 upload/download handler
+│   │   ├── transaction_producer.py
+│   │   └── s3_handler.py
 │   ├── processing/
-│   │   └── spark_consumer.py         # Spark Structured Streaming consumer
+│   │   └── spark_consumer.py
 │   ├── training/
-│   │   └── train_model.py            # XGBoost model training with MLflow
+│   │   └── train_model.py
 │   └── serving/
-│       └── app.py                    # FastAPI prediction endpoint
+│       └── app.py
 ├── tests/
-│   └── test_api.py                   # Pytest unit tests
+│   └── test_api.py
 ├── monitoring/
-│   └── prometheus.yml                # Prometheus scrape config
+│   └── prometheus.yml
 ├── .github/
 │   └── workflows/
-│       └── ci.yml                    # GitHub Actions CI/CD pipeline
-├── docker-compose.yml                # Kafka, Zookeeper, Prometheus, Grafana
+│       └── ci.yml
+├── docker-compose.yml
+├── requirements.txt
 └── README.md
-
----
+```
 
 ## 🔄 How It Works
 
